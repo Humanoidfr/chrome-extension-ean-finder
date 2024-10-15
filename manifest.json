@@ -1,0 +1,11 @@
+{
+    "name": "EAN Finder",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Extract EANs from the page - BM",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "service-worker.js"
+    }
+  }
